@@ -10,4 +10,4 @@ Input values:
 - Ship speed $V$ (m/s)
 - Shape parameter $\gamma$
 - Relative wave direction $\beta$ (deg)　
-- Logarithmic value of wavelength/ship length ratio (i.e. `log10(λ/L)`), where $\lambda$ denotes the wavelength
+- Logarithmic value of wavelength/ship length ratio (i.e. `log_10(λ/L)`), where $\lambda$ denotes the wavelength
