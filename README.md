@@ -15,3 +15,4 @@ Input values:
 Note that before making prediction by ANN, each value should be normalized by:
 $\hat{\Phi} = \frac{2 \left( \Phi - \min\left\{\Phi\right\} \right)}{\max\left\{\Phi\right\} - \min\left\{\Phi\right\}} - 1$
 
+
