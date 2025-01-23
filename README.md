@@ -12,8 +12,8 @@ Input values:
 - Relative wave direction $\beta$ (deg)　
 - Logarithmic value of wavelength/ship length ratio (i.e. `log10(λ/L)`), where $\lambda$ denotes the wavelength
 
-Note that before making prediction by ANN, each value should be normalized by:
-$\hat{\Phi} = \frac{2 \left( \Phi - \min\{\Phi\} \right)}{\max\{\Phi\} - \min\{\Phi\}} - 1$
+Note that before making prediction by ANN, each value should be normalized by (e.g. ship length $L$):
+$\hat{L} = \frac{2 \left( L - \min\{L\} \right)}{\max\{L\} - \min\{L\}} - 1$
 
 
 
