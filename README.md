@@ -13,4 +13,5 @@ Input values:
 - Logarithmic value of wavelength/ship length ratio (i.e. `log10(λ/L)`), where $\lambda$ denotes the wavelength
 
 Note that before making prediction by ANN, each value should be normalized by:
-\hat{\Phi}=\frac{2\left(\Phi-min\left\{\Phi\right\}\right)}{max\left\{\Phi\right\}-min\left\{\Phi\right\}}-1
+$\hat{\Phi} = \frac{2 \left( \Phi - \min\left\{\Phi\right\} \right)}{\max\left\{\Phi\right\} - \min\left\{\Phi\right\}} - 1$
+
