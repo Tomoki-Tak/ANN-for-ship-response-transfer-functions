@@ -46,7 +46,7 @@ Amplitude outputs by ANN have been normalized within [-1 1]. To revert to the ac
 |Max| 2      | 1       | 0.25     |
 
 To get the VBM amplitude in (Nm/m) from the non-normalized value M, the following calculation should be made:
-$\M_v = \M^2 * \B * \L^2 * \g$
+$M_v$ = $M^2 * B * L^2 * g$
 
 where g denotes the gravitational acceleration ($m/s^2$).
 
