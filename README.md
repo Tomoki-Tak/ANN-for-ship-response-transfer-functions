@@ -37,7 +37,7 @@ Output values are:
 - VBM phase (amidships, by my_model_vbmphase.keras)
 
 ## Amplitude
-Amplitude outputs by ANN have been normalized within [-1 1]. To revert to the actual values, the min&max values in the table below can be used.
+Amplitude outputs by ANN have been normalized to the range [-1 1]. To revert to the actual values, the min&max values in the table below can be used.
 
 |  | Heave (m/m)| Pitch (deg/m)| VBM | 
 |---------------|---------------|---------------|---------------|
