@@ -42,7 +42,7 @@ Amplitude outputs by ANN have been normalized within [-1 1]. To revert to the ac
 
 |  | Heave (m/m)| Pitch (deg/m)| VBM | 
 |---------------|---------------|---------------|---------------|
-|Min| 8.82E-10       | 1.44E-08      | 0.000156591       |
+|Min| 0       | 0      | 0       |
 |Max| 2      | 1       | 0.25     |
 
 To get the VBM amplitude in (Nm/m) from the non-normalized value $M$, the following calculation should be made:
