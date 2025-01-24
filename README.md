@@ -10,7 +10,7 @@ Input values are:
 - Draught $T$ (m)
 - Ship speed $V$ (m/s)
 - Shape parameter $\gamma$
-- Relative wave direction $\beta$ (deg) (NB: head seas is $\beta=180$)　
+- Relative wave direction $\beta$ (deg) (NB: head seas is $\beta=180 deg$)　
 - Logarithmic value of wavelength/ship length ratio (i.e. $\kappa$=`log10(λ/L)`), where $\lambda$ denotes the wavelength
 
 The shape parameter $\gamma$ has a one-to-one relationship with Block coefficient $C_b$, see the figure below and ref. [2].
