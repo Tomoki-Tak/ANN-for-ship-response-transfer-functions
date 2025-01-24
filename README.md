@@ -50,7 +50,7 @@ $M_v$ = $M^2 * B * L^2 * g$
 where g denotes the gravitational acceleration ($m/s^2$).
 
 ## Phase
-The ANN provides the cosine and sine terms of the phase $Gamma$ (rad). To get $Gamma$, $arctan$ of each values should be calculated, see the sample code (predict.py). 
+The ANN provides the cosine and sine terms of the phase $\Gamma$ (rad). To get $\Gamma$, $arctan$ of each values should be calculated, see the sample code (predict.py). 
 
 # References
 [1] M. Takagi and M. Ganno, “On the Accuracy of the Strip Theory, Used for a Calculation of Ship Motions in Waves,” Journal of Zosen Kiokai, vol. 121, pp. 48–61, 1967.
