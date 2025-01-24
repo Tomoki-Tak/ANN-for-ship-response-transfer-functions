@@ -9,7 +9,7 @@ Input values:
 - Draught $T$ (m)
 - Ship speed $V$ (m/s)
 - Shape parameter $\gamma$
-- Relative wave direction $\beta$ (deg)　
+- Relative wave direction $\beta$ (deg) (NB: head seas is $\beta=180$)　
 - Logarithmic value of wavelength/ship length ratio (i.e. `log10(λ/L)`), where $\lambda$ denotes the wavelength
 
 The shape parameter $\gamma$ has a one-to-one relationship with Block coefficient $C_b$, see the figure below and ref. [2].
@@ -18,7 +18,7 @@ The shape parameter $\gamma$ has a one-to-one relationship with Block coefficien
 Note that before making prediction by ANN, each value should be normalized by (e.g. ship length $L$):
 $\hat{L} = \frac{2 \left( L - \min\{L\} \right)}{\max\{L\} - \min\{L\}} - 1$
 
-|  | $L$ (m) | $B$ (m) |
+|  | $L$ (m) | $B$ (m) | $T$ (m) | $V$ | $\gamma$  | $\beta$ (m) |
 |---------------|---------------|---------------|
 | データ1       | データ2       | データ3       |
 | データ4       | データ5       | データ6       |
