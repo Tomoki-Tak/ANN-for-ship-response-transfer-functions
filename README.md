@@ -53,5 +53,8 @@ where g denotes the gravitational acceleration ($m/s^2$).
 ## Phase
 The ANN provides the cosine and sine terms of the phase $Gamma$ (rad). To get $Gamma$, $arctan$ of each values should be calculated, see the sample code (predict.py). 
 
+# References
+[1] M. Takagi and M. Ganno, “On the Accuracy of the Strip Theory, Used for a Calculation of Ship Motions in Waves,” Journal of Zosen Kiokai, vol. 121, pp. 48–61, 1967.
+[2] T. Takami, U.D. Nielsen, R.E.G. Mounet, J.J. Jensen, R. Mori, and Y. Komoriyama, "Data-driven Estimations of Response Transfer Functions of a Marine Vessel and Phase-resolved Incident Waves", submitting.
 
 
