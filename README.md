@@ -15,7 +15,8 @@ Input values are:
 - Logarithmic value of wavelength/ship length ratio (i.e. $\kappa$=`log10(λ/L)`), where $\lambda$ denotes the wavelength
 
 The shape parameter $\gamma$ has a one-to-one relationship with Block coefficient $C_b$, see the figure below and ref. [2].
-![gamma](https://github.com/user-attachments/assets/dd022ca7-df62-4186-88a6-f2af1b3184b1)
+![gamma](https://github.com/user-attachments/assets/97d53d38-4ecc-4e7d-9050-48863ee24f9f)
+
 
 Note that before making prediction by ANN, each value should be normalized by (e.g. ship length $L$):
 $\hat{L} = \frac{2 \left( L - \min\{L\} \right)}{\max\{L\} - \min\{L\}} - 1$
