@@ -15,7 +15,10 @@ Input values:
 The shape parameter $\gamma$ has a one-to-one relationship with Block coefficient $C_b$, see the figure below and ref. [2].
 ![gamma](https://github.com/user-attachments/assets/dd022ca7-df62-4186-88a6-f2af1b3184b1)
 
-
 Note that before making prediction by ANN, each value should be normalized by (e.g. ship length $L$):
 $\hat{L} = \frac{2 \left( L - \min\{L\} \right)}{\max\{L\} - \min\{L\}} - 1$
 
+|  | $L$ (m) | $B$ (m) |
+|---------------|---------------|---------------|
+| データ1       | データ2       | データ3       |
+| データ4       | データ5       | データ6       |
