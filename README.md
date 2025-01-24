@@ -3,7 +3,9 @@ Trained Artificial Neural Network (ANN) models for transfer function computation
 The present ANN has been trained based on a linear strip thepry, so-called the New Strip Method (Takagi and Ganno [1]), in which the Lewis form approximation of ship cross-sections is adopted.
 For more detail, refer to Takami et al. [2].
 
-Input values:
+1. Input values
+
+Input values are:
 - Ship length $L$ (m)
 - Ship breadth $B$ (m)
 - Draught $T$ (m)
@@ -24,5 +26,7 @@ The min&max values for each parameter are shown in the table below.
 |---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 |Min| 100       | 10      | 5       |0       |0.7       |-180       |-1       |
 |Max| 400      | 50       | 30       |30       |1.3       |180       |1       |
+
+2. Output values
 
 
